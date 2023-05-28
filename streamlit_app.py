@@ -6,9 +6,6 @@ from sklearn.cluster import KMeans
 from sklearn_extra.cluster import KMedoids
 from sklearn.datasets import make_blobs
 
-
-#st.set_option('deprecation.showPyplotGlobalUse', False)
-
 #sidebar
 st.sidebar.markdown("Clustering의 :red[변수] ")
 number = st.sidebar.number_input('How many center do you want?',1,6,3)
