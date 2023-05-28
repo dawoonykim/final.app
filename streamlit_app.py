@@ -93,6 +93,8 @@ for j, col in zip(range(k),colors):
     ax.plot(cluster_center[0],cluster_center[1],'o',markerfacecolor=col,markeredgecolor='k',markersize=6)
 
     ax.set_title('K_Means Clustering')
+    ax.set_xticks(())
+    ax.set_yticks(())
     plt.xlabel("X-axis")
     plt.ylabel("Y-axis")
     #plt.show()
